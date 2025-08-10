@@ -33,9 +33,9 @@ interface ApiRecord {
 const ApiDashboard = () => {
   const { toast } = useToast();
   const [records, setRecords] = useState<ApiRecord[]>([
-    { id: "1", name: "John Doe", email: "john@example.com", status: "active", createdAt: "2024-01-15" },
-    { id: "2", name: "Jane Smith", email: "jane@example.com", status: "pending", createdAt: "2024-01-14" },
-    { id: "3", name: "Bob Johnson", email: "bob@example.com", status: "inactive", createdAt: "2024-01-13" },
+    { id: "1", name: "John Doe", email: "aswanthsagabala1721@gmail.com", status: "active", createdAt: "2024-01-15" },
+    { id: "2", name: "Jane Smith", email: "avinash@gmail.com", status: "pending", createdAt: "2024-01-14" },
+    { id: "3", name: "Bob Johnson", email: "tejanandhan@gmail.com", status: "inactive", createdAt: "2024-01-13" },
   ]);
 
   const [formData, setFormData] = useState({
